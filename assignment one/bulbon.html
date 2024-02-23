@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Light Switch</title>
+<style>
+    /* Optional styling for visual appeal */
+    img {
+      margin: 10px;
+      border: 1px solid #ccc;
+      padding: 5px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ddd;
+      cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+
+<img id="lightImage" src="light-bulb.avif" style="width: 100px;" alt="Light Bulb">
+<button onclick="document.getElementById('lightImage').src = 'light-bulb.avif'; 
+document.getElementById('lightImage').innerHTML = 'Light on';">Turn on light</button>
+
+<button onclick="document.getElementById('lightImage').src = 'LEDGLS5BC3STEPOP_2'; 
+document.getElementById('lightImage').innerHTML = 'Light 0ff';">Turn off light</button>
+
+<br>
+
+<p id="lightImage">
+
+</body>
+</html>
